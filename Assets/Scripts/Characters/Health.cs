@@ -11,5 +11,14 @@ public class Health : MonoBehaviour
     public void Change(float delta)
     {
         CurrentHealth = Mathf.Clamp(CurrentHealth + delta, 0, MaxHealth);
+        if (CurrentHealth <= 0)
+            StartCoroutine(Die());
+
+    }
+
+    private IEnumerator Die()
+    {
+        Destroy(gameObject);
+        yield return null;
     }
 }
