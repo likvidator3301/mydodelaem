@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 1952541760}
   - component: {fileID: 1800509815315338240}
   - component: {fileID: 2655210428034639299}
+  - component: {fileID: 7266174063857314393}
   m_Layer: 0
   m_Name: Fly Enemy
   m_TagString: Enemy
@@ -167,6 +168,7 @@ MonoBehaviour:
   Seed: 4487
   RangeOfView: 4
   MoveRange: 40
+  Locked: 0
 --- !u!114 &2655210428034639299
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -183,6 +185,19 @@ MonoBehaviour:
   Projectile: {fileID: 697337635885120356, guid: db5b188e90357574890ae8ac7ee4e99f,
     type: 3}
   Speed: 2
+--- !u!114 &7266174063857314393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952541759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af91b721c70468478e666a6719b3ddc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Soul: {fileID: 1254939135307724942, guid: 8d20e8b4dc62775468e1f5239d3c56e9, type: 3}
 --- !u!1 &6399255034117104542
 GameObject:
   m_ObjectHideFlags: 0

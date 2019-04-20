@@ -8,6 +8,13 @@ public class IntroController : MonoBehaviour
 {
     public string[] sentenceses;
     public Animator Animator;
+	public AudioClip ScrumbleClip;
+	public AudioClip SwallowClip;
+	public AudioClip PourClip;	
+	public AudioClip WritingClip;
+	public AudioClip RingingClip;
+	public AudioClip ThunderClip;
+	
     void Start()
     {
         MainStore.Dialogue.SetSentenceses(sentenceses.ToList());
@@ -23,9 +30,13 @@ public class IntroController : MonoBehaviour
 
     private IEnumerator Contol()
     {
+		var aSource = GetComponent<AudioSource>();
+		aSource.loop = false;
         var dialogue = MainStore.Dialogue;
         dialogue.ShowDialogue();
         //звук автомобиля
+		aSource.clip = ScrumbleClip;
+		aSource.Play();
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
         Animator.SetBool("ToIntro", true);
@@ -36,18 +47,26 @@ public class IntroController : MonoBehaviour
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
         Animator.SetBool("ToBar", true);
         yield return new WaitForSeconds(2);
+		aSource.clip = PourClip;
+		aSource.Play();
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
+		aSource.clip = SwallowClip;
+		aSource.Play();
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
+		aSource.clip = WritingClip;
+		aSource.Play();
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
         Animator.SetBool("ToBlack", true);
         yield return new WaitForSeconds(2);
+		aSource.clip = RingingClip;
+		aSource.Play();
         dialogue.ShowNext();
         yield return new WaitForSeconds(dialogue.NeedTime + 1);
         dialogue.ShowNext();
@@ -79,7 +98,9 @@ public class IntroController : MonoBehaviour
         Animator.SetBool("To4", true);
         yield return new WaitForSeconds(2);
         Animator.SetBool("To5", true);
-        GetComponent<AudioSource>().Play();
+		aSource.clip = ThunderClip;
+		aSource.loop = true;
+		aSource.Play();
         yield return new WaitForSeconds(5);
         
         SceneManager.LoadScene("SampleScene");

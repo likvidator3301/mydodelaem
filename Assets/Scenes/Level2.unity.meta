@@ -1,5 +1,10 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:Assets/Scenes/Level2.unity.meta
 guid: 31733846ca11ade40ae954aea311d4ec
+=======
+guid: 846af96875c82194f9b5facbd4d03e5e
+folderAsset: yes
+>>>>>>> fe310b804797dd9ee0d9c1786815ff6777563c99:Assets/Audio/Intro.meta
 DefaultImporter:
   externalObjects: {}
   userData: 

@@ -11,6 +11,7 @@ public class AIMoveController : MonoBehaviour
     public int Seed;
     public float RangeOfView;
     public float MoveRange;
+    public bool Locked;
 
     private bool hasPath;
     private Vector3 target;
@@ -29,6 +30,9 @@ public class AIMoveController : MonoBehaviour
 
     void Update()
     {
+        if (Locked)
+            return;
+
         CheckPlayer();
         if (hasPath)
         {
