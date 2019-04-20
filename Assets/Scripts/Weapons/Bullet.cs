@@ -8,10 +8,11 @@ public class Bullet : MonoBehaviour
     public string TargetTag = "Enemy";
 
     void OnCollisionEnter2D(Collision2D collision)
-    {   
+    {
         if (collision.collider.gameObject.tag == TargetTag)
+        {
             collision.collider.gameObject.GetComponent<Health>().Change(-Damage);
-        Destroy(gameObject);
+            Destroy(gameObject);
+        }
     }
-
 }

@@ -1,10 +1,18 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class DialogueContoller : MonoBehaviour
 {
+    
     private bool dialogueIsShowed;
+
+    void Start()
+    {
+        
+    }
+
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Q))
@@ -19,6 +27,10 @@ public class DialogueContoller : MonoBehaviour
             }
 
             dialogueIsShowed = !dialogueIsShowed;
+        }
+        else if (Input.GetKeyDown(KeyCode.Space))
+        {
+            MainStore.Dialogue.ShowNext();
         }
     }
 }

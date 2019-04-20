@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
@@ -9,6 +10,7 @@ public class AIMoveController : MonoBehaviour
     public float Speed;
     public int Seed;
     public float RangeOfView;
+    public float MoveRange;
 
     private bool hasPath;
     private Vector3 target;
@@ -20,7 +22,7 @@ public class AIMoveController : MonoBehaviour
 
     void Start()
     {
-        checkPoints = MainStore.CheckPointsForAI;
+        checkPoints = GameObject.FindGameObjectsWithTag("AICheckPoint").Where(l => (transform.position - l.transform.position).magnitude <= MoveRange).ToArray();
         rigidbody = GetComponent<Rigidbody2D>();
         random = new System.Random(Seed);
     }
