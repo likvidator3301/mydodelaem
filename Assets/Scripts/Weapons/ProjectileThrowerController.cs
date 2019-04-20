@@ -8,9 +8,10 @@ public class ProjectileThrowerController : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+			GetComponent<AudioSource>().Play();
             var mousePosition = MainStore.Camera.ScreenPointToRay(Input.mousePosition).GetPoint(1);
             var direction = (mousePosition - GetComponent<ProjectileThrower>().SpawnPoint.transform.position).normalized;
             GetComponent<ProjectileThrower>().Shoot(direction);
-        }
+		}
     }
 }
