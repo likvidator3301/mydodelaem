@@ -17,7 +17,8 @@ public class IntroController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKeyDown(KeyCode.L) && Input.GetKeyDown(KeyCode.P))
+            SceneManager.LoadScene("SampleScene");
     }
 
     private IEnumerator Contol()
@@ -78,6 +79,7 @@ public class IntroController : MonoBehaviour
         Animator.SetBool("To4", true);
         yield return new WaitForSeconds(2);
         Animator.SetBool("To5", true);
+        GetComponent<AudioSource>().Play();
         yield return new WaitForSeconds(5);
         
         SceneManager.LoadScene("SampleScene");

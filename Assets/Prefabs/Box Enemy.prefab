@@ -166,7 +166,7 @@ MonoBehaviour:
   Speed: 2
   Seed: 56
   RangeOfView: 4
-  MoveRange: 20
+  MoveRange: 40
 --- !u!114 &6836952061996268601
 MonoBehaviour:
   m_ObjectHideFlags: 0
