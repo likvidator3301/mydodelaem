@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3bcafb94e59bbf468ecf95e419ffd63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Damage: 100
+  Damage: 50
   TargetTag: Enemy
 --- !u!58 &2835158715670906126
 CircleCollider2D:
