@@ -269,7 +269,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &6486609
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &32973303
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -590,7 +590,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &53260933
 GameObject:
   m_ObjectHideFlags: 0
@@ -711,7 +711,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &70925289
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!61 &70925293
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &116835392
 GameObject:
   m_ObjectHideFlags: 0
@@ -1074,7 +1074,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &120435000
 GameObject:
   m_ObjectHideFlags: 0
@@ -1195,7 +1195,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &123772564
 GameObject:
   m_ObjectHideFlags: 0
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &126744141
 GameObject:
   m_ObjectHideFlags: 0
@@ -1437,7 +1437,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &136489619
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1701,7 +1701,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &196961414
 GameObject:
   m_ObjectHideFlags: 0
@@ -1822,7 +1822,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &201080957
 GameObject:
   m_ObjectHideFlags: 0
@@ -1943,7 +1943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &210287706
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,7 +2064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &211625989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2254,7 +2254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &247358283
 GameObject:
   m_ObjectHideFlags: 0
@@ -2279,7 +2279,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 247358283}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.73, y: -9.53, z: -1}
+  m_LocalPosition: {x: -8.16, y: -8.06, z: -1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 3274704}
@@ -2411,7 +2411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &270037148
 GameObject:
   m_ObjectHideFlags: 0
@@ -2532,7 +2532,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &275460310
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2722,7 +2722,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &319328294
 GameObject:
   m_ObjectHideFlags: 0
@@ -2843,7 +2843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &322132566 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1952541759, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
@@ -2998,7 +2998,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &329454646
 GameObject:
   m_ObjectHideFlags: 0
@@ -3119,7 +3119,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &333799009
 GameObject:
   m_ObjectHideFlags: 0
@@ -3240,7 +3240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &337439005
 GameObject:
   m_ObjectHideFlags: 0
@@ -3361,7 +3361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &349467891
 GameObject:
   m_ObjectHideFlags: 0
@@ -3482,7 +3482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &369077643
 GameObject:
   m_ObjectHideFlags: 0
@@ -3700,7 +3700,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &396516719
 GameObject:
   m_ObjectHideFlags: 0
@@ -3821,7 +3821,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &409515032
 GameObject:
   m_ObjectHideFlags: 0
@@ -3942,7 +3942,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &410132515
 GameObject:
   m_ObjectHideFlags: 0
@@ -4063,7 +4063,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &411515118
 GameObject:
   m_ObjectHideFlags: 0
@@ -4184,7 +4184,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &432110593
 GameObject:
   m_ObjectHideFlags: 0
@@ -4305,7 +4305,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &432447043
 GameObject:
   m_ObjectHideFlags: 0
@@ -4426,7 +4426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &439808246
 GameObject:
   m_ObjectHideFlags: 0
@@ -4547,7 +4547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &456827743
 GameObject:
   m_ObjectHideFlags: 0
@@ -4668,7 +4668,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &457448192
 GameObject:
   m_ObjectHideFlags: 0
@@ -4789,7 +4789,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &468163966
 GameObject:
   m_ObjectHideFlags: 0
@@ -4910,7 +4910,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!4 &476531199 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1952541765, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
@@ -5037,7 +5037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &493977815
 GameObject:
   m_ObjectHideFlags: 0
@@ -5158,7 +5158,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &495026418
 GameObject:
   m_ObjectHideFlags: 0
@@ -5279,7 +5279,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &514764638
 GameObject:
   m_ObjectHideFlags: 0
@@ -5400,7 +5400,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &533099548
 GameObject:
   m_ObjectHideFlags: 0
@@ -5521,7 +5521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &533471076
 GameObject:
   m_ObjectHideFlags: 0
@@ -5678,7 +5678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &617381434
 GameObject:
   m_ObjectHideFlags: 0
@@ -5799,7 +5799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &621467822
 GameObject:
   m_ObjectHideFlags: 0
@@ -5920,7 +5920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &642532081
 GameObject:
   m_ObjectHideFlags: 0
@@ -6071,7 +6071,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &673894765
 GameObject:
   m_ObjectHideFlags: 0
@@ -6192,7 +6192,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &682116739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6412,7 +6412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &733864051
 GameObject:
   m_ObjectHideFlags: 0
@@ -6533,7 +6533,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &735307025
 GameObject:
   m_ObjectHideFlags: 0
@@ -6654,7 +6654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &740716185
 GameObject:
   m_ObjectHideFlags: 0
@@ -6775,7 +6775,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &748048963
 GameObject:
   m_ObjectHideFlags: 0
@@ -6896,7 +6896,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &775753812
 GameObject:
   m_ObjectHideFlags: 0
@@ -7036,6 +7036,11 @@ PrefabInstance:
       propertyPath: Speed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 6751208921422500529, guid: ab4af44f8b5e6d947a6c1492d03cbd9f,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab4af44f8b5e6d947a6c1492d03cbd9f, type: 3}
 --- !u!1 &812046675
@@ -7158,7 +7163,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &825056980
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7231,6 +7236,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800509815315338240, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
@@ -7384,7 +7394,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &859432660
 GameObject:
   m_ObjectHideFlags: 0
@@ -7505,7 +7515,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &896052553
 GameObject:
   m_ObjectHideFlags: 0
@@ -7763,7 +7773,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 901701068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.06, y: 0.02, z: -1}
+  m_LocalPosition: {x: -6.31, y: -5.09, z: -1}
   m_LocalScale: {x: 3.0836651, y: 3.18339, z: 1}
   m_Children:
   - {fileID: 1127421648}
@@ -7942,7 +7952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &910698697
 GameObject:
   m_ObjectHideFlags: 0
@@ -8063,7 +8073,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &919843984
 GameObject:
   m_ObjectHideFlags: 0
@@ -8184,7 +8194,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &951386175
 GameObject:
   m_ObjectHideFlags: 0
@@ -8305,7 +8315,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &951867909
 GameObject:
   m_ObjectHideFlags: 0
@@ -8426,7 +8436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &953685287
 GameObject:
   m_ObjectHideFlags: 0
@@ -8547,7 +8557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &963315953
 GameObject:
   m_ObjectHideFlags: 0
@@ -8668,7 +8678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &973669823
 GameObject:
   m_ObjectHideFlags: 0
@@ -8789,7 +8799,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &977718251
 GameObject:
   m_ObjectHideFlags: 0
@@ -8910,7 +8920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1002929788
 GameObject:
   m_ObjectHideFlags: 0
@@ -9031,7 +9041,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!4 &1004261408 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2019150290, guid: ab4af44f8b5e6d947a6c1492d03cbd9f,
@@ -9227,6 +9237,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800509815315338240, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
@@ -9439,7 +9454,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1068444015
 GameObject:
   m_ObjectHideFlags: 0
@@ -9560,7 +9575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1069786566
 GameObject:
   m_ObjectHideFlags: 0
@@ -9681,7 +9696,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1072901506
 GameObject:
   m_ObjectHideFlags: 0
@@ -9802,7 +9817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1090400066
 GameObject:
   m_ObjectHideFlags: 0
@@ -9923,7 +9938,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1105861041
 GameObject:
   m_ObjectHideFlags: 0
@@ -10044,7 +10059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1111612888
 GameObject:
   m_ObjectHideFlags: 0
@@ -10239,7 +10254,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1127421647
 GameObject:
   m_ObjectHideFlags: 0
@@ -10457,7 +10472,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1134608817
 GameObject:
   m_ObjectHideFlags: 0
@@ -10578,7 +10593,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1137171506
 GameObject:
   m_ObjectHideFlags: 0
@@ -10699,7 +10714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1157593241
 GameObject:
   m_ObjectHideFlags: 0
@@ -10820,7 +10835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1164144092
 GameObject:
   m_ObjectHideFlags: 0
@@ -10941,7 +10956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1165081312
 GameObject:
   m_ObjectHideFlags: 0
@@ -11062,7 +11077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1176407090
 GameObject:
   m_ObjectHideFlags: 0
@@ -11183,7 +11198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1191509574
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11373,7 +11388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1222309391
 GameObject:
   m_ObjectHideFlags: 0
@@ -11494,7 +11509,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1233045227
 GameObject:
   m_ObjectHideFlags: 0
@@ -11529,12 +11544,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CheckPoints:
   - {fileID: 247358283}
-  - {fileID: 642532081}
-  - {fileID: 846713537}
-  - {fileID: 533471076}
-  - {fileID: 1983840958}
-  - {fileID: 1979750867}
-  - {fileID: 693797306}
 --- !u!4 &1233045229
 Transform:
   m_ObjectHideFlags: 0
@@ -11660,6 +11669,11 @@ PrefabInstance:
       propertyPath: Speed
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 1800509815315338240, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
 --- !u!1 &1254050036
@@ -11782,7 +11796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1258828442
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11972,7 +11986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1263739376
 GameObject:
   m_ObjectHideFlags: 0
@@ -12214,7 +12228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1276775040
 GameObject:
   m_ObjectHideFlags: 0
@@ -12335,7 +12349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1280301378
 GameObject:
   m_ObjectHideFlags: 0
@@ -12456,7 +12470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1341267456
 GameObject:
   m_ObjectHideFlags: 0
@@ -12577,7 +12591,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!4 &1395759377 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1952541765, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
@@ -12704,7 +12718,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1420363872
 GameObject:
   m_ObjectHideFlags: 0
@@ -12825,7 +12839,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1432972063
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13015,7 +13029,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1434629928
 GameObject:
   m_ObjectHideFlags: 0
@@ -13136,7 +13150,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1437411269
 GameObject:
   m_ObjectHideFlags: 0
@@ -13257,7 +13271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1446972306
 GameObject:
   m_ObjectHideFlags: 0
@@ -13378,7 +13392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1458694449
 GameObject:
   m_ObjectHideFlags: 0
@@ -13499,7 +13513,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1500509282
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13572,6 +13586,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6751208921422500529, guid: ab4af44f8b5e6d947a6c1492d03cbd9f,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab4af44f8b5e6d947a6c1492d03cbd9f, type: 3}
@@ -13695,7 +13714,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1509252045
 GameObject:
   m_ObjectHideFlags: 0
@@ -13816,7 +13835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1515350072
 GameObject:
   m_ObjectHideFlags: 0
@@ -13937,7 +13956,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1518879353
 GameObject:
   m_ObjectHideFlags: 0
@@ -14058,7 +14077,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1537455683
 GameObject:
   m_ObjectHideFlags: 0
@@ -14179,7 +14198,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1549361030
 GameObject:
   m_ObjectHideFlags: 0
@@ -14300,7 +14319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1549755879
 GameObject:
   m_ObjectHideFlags: 0
@@ -14421,7 +14440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1554270530
 GameObject:
   m_ObjectHideFlags: 0
@@ -14542,7 +14561,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1567611808
 GameObject:
   m_ObjectHideFlags: 0
@@ -14663,7 +14682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1577006720
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14833,7 +14852,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!61 &1610508490
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14980,7 +14999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1616418569
 GameObject:
   m_ObjectHideFlags: 0
@@ -15101,7 +15120,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1634986147
 GameObject:
   m_ObjectHideFlags: 0
@@ -15222,7 +15241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1635241494
 GameObject:
   m_ObjectHideFlags: 0
@@ -15343,7 +15362,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1637442737
 GameObject:
   m_ObjectHideFlags: 0
@@ -15475,7 +15494,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!61 &1643815590
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15684,7 +15703,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1687311100
 GameObject:
   m_ObjectHideFlags: 0
@@ -15980,7 +15999,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1732699341
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16053,6 +16072,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800509815315338240, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
@@ -16176,7 +16200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1754572180
 GameObject:
   m_ObjectHideFlags: 0
@@ -16297,7 +16321,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1760914855
 GameObject:
   m_ObjectHideFlags: 0
@@ -16418,7 +16442,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &1785579566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16440,7 +16464,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1952541765, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: -2
       objectReference: {fileID: 0}
     - target: {fileID: 1952541765, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
       propertyPath: m_LocalRotation.x
@@ -16491,6 +16515,11 @@ PrefabInstance:
         type: 3}
       propertyPath: Speed
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1800509815315338240, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
+        type: 3}
+      propertyPath: RangeOfView
+      value: 4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fca4836b5e15aeb419cbdc5fc3593d6c, type: 3}
@@ -16614,7 +16643,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1826168852
 GameObject:
   m_ObjectHideFlags: 0
@@ -16735,7 +16764,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1833207610
 GameObject:
   m_ObjectHideFlags: 0
@@ -16856,7 +16885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1837311098
 GameObject:
   m_ObjectHideFlags: 0
@@ -16977,7 +17006,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1857631116
 GameObject:
   m_ObjectHideFlags: 0
@@ -17098,7 +17127,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1864548531
 GameObject:
   m_ObjectHideFlags: 0
@@ -17219,7 +17248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1881433325
 GameObject:
   m_ObjectHideFlags: 0
@@ -17340,7 +17369,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1892145474
 GameObject:
   m_ObjectHideFlags: 0
@@ -17461,7 +17490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1896674604
 GameObject:
   m_ObjectHideFlags: 0
@@ -17582,7 +17611,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1898422276
 GameObject:
   m_ObjectHideFlags: 0
@@ -17703,7 +17732,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1900526643
 GameObject:
   m_ObjectHideFlags: 0
@@ -17824,7 +17853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!4 &1913471200 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1952541765, guid: fca4836b5e15aeb419cbdc5fc3593d6c,
@@ -17951,7 +17980,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1950769411
 GameObject:
   m_ObjectHideFlags: 0
@@ -18046,7 +18075,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!61 &1950769415
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18167,7 +18196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!61 &1952889089
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18374,7 +18403,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &1983840958
 GameObject:
   m_ObjectHideFlags: 0
@@ -18525,7 +18554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2000995238
 GameObject:
   m_ObjectHideFlags: 0
@@ -18646,7 +18675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2036022662
 GameObject:
   m_ObjectHideFlags: 0
@@ -18767,7 +18796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &2040413777
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18957,7 +18986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2072618137
 GameObject:
   m_ObjectHideFlags: 0
@@ -19078,7 +19107,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2101547695
 GameObject:
   m_ObjectHideFlags: 0
@@ -19199,7 +19228,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2122353979
 GameObject:
   m_ObjectHideFlags: 0
@@ -19320,7 +19349,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2133345865
 GameObject:
   m_ObjectHideFlags: 0
@@ -19441,7 +19470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1 &2138402805
 GameObject:
   m_ObjectHideFlags: 0
@@ -19536,7 +19565,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!61 &2138402809
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19683,7 +19712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   TargetTag: Player
-  Damage: 50
+  Damage: 25
 --- !u!1001 &7099356140677402959
 PrefabInstance:
   m_ObjectHideFlags: 0
