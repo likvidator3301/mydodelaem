@@ -26,10 +26,10 @@ public class PlayerInputController : MonoBehaviour
 
     private void ProcessInput()
     {
-        AddForceIfKeyDown(KeyCode.W, transform.up * Speed);
-        AddForceIfKeyDown(KeyCode.S, -transform.up * Speed);
-        AddForceIfKeyDown(KeyCode.A, -transform.right * Speed);
-        AddForceIfKeyDown(KeyCode.D, transform.right * Speed);
+        AddForceIfKeyDown(KeyCode.W, Vector3.up * Speed);
+        AddForceIfKeyDown(KeyCode.S, -Vector3.up * Speed);
+        AddForceIfKeyDown(KeyCode.A, -Vector3.right * Speed);
+        AddForceIfKeyDown(KeyCode.D, Vector3.right * Speed);
     }
 
     private void AddForceIfKeyDown(KeyCode key, Vector2 force)
