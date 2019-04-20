@@ -6,6 +6,7 @@ public class PlayerInputController : MonoBehaviour
 {
     public float Speed = 500f;
     private Rigidbody2D rigidbody;
+    public bool Locked;
 
     // Start is called before the first frame update
     void Start()
@@ -16,6 +17,8 @@ public class PlayerInputController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (Locked)
+            return;
         ProcessInput();
         var mousePosition = MainStore.Camera.ScreenPointToRay(Input.mousePosition).GetPoint(1);
         var angle = Vector3.Angle(mousePosition - transform.position, Vector3.up);
