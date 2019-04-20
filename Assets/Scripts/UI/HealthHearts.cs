@@ -8,7 +8,23 @@ public class HealthHearts : MonoBehaviour
 
     void Update()
     {
-        if (MainStore.Player.GetComponent<Health>().CurrentHealth < CountToDestroy)
+        try
+        {
+            if (MainStore.Player.GetComponent<Health>().CurrentHealth < CountToDestroy)
+                Destroy(gameObject);
+        }
+        catch (MissingReferenceException exception)
+        {
             Destroy(gameObject);
+        }
+    }
+
+    void OnDestroy()
+    {
+        if (CountToDestroy == 1)
+        {
+            MainStore.GameOverLabel.SetActive(true);
+            Time.timeScale = 0f;
+        }
     }
 }

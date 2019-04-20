@@ -9,10 +9,6 @@ public class AIMoveController : MonoBehaviour
     public float Speed;
     public int Seed;
     public float RangeOfView;
-    public bool IsBoxPlayer;
-    public GameObject SpawnPoint;
-    public GameObject Projectile;
-    public float SpeedProjectile = 10f;
 
     private bool hasPath;
     private Vector3 target;
@@ -20,6 +16,7 @@ public class AIMoveController : MonoBehaviour
     private GameObject[] checkPoints;
     private System.Random random;
     private bool shooting;
+    private bool ready = true;
 
     void Start()
     {
@@ -30,15 +27,14 @@ public class AIMoveController : MonoBehaviour
 
     void Update()
     {
+        CheckPlayer();
         if (hasPath)
         {
-            CheckPlayer();
             var direction = target - transform.position;
             if (direction.magnitude <= 1)
                 hasPath = false;
             rigidbody.AddForce(direction.normalized * Speed * Time.deltaTime);
             transform.up = direction.normalized;
-            
         }
         else
         {
@@ -47,41 +43,27 @@ public class AIMoveController : MonoBehaviour
         }
     }
 
-    private void CheckPlayer()
+    void CheckPlayer()
     {
         var direction = MainStore.Player.transform.position - transform.position;
         var dist = direction.magnitude;
-        if (dist <= RangeOfView)
+        if (ready && dist <= RangeOfView)
         {
-            if (IsBoxPlayer)
-                target = MainStore.Player.transform.position;
-            else
-                target = direction.normalized;
-
-            target = new Vector3(target.x, target.y, -1);
-            hasPath = true;
-            if (!shooting)
-            {
-                StartCoroutine(Shooting());
-                shooting = true;
-            }
+            var gun = GetComponent<ProjectileThrower>();
+            var projectileDirection = (MainStore.Player.transform.position - gun.SpawnPoint.transform.position).normalized;
+            var angle = Vector3.Angle(MainStore.Player.transform.position - transform.position, Vector3.up);
+            if (MainStore.Player.transform.position.x > transform.position.x)
+                angle = -angle;
+            gameObject.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+            gun.Shoot(projectileDirection);
+            StartCoroutine(Cooldown());
         }
     }
 
-    void Shoot()
+    private IEnumerator Cooldown()
     {
-        var projectile = Instantiate(Projectile, SpawnPoint.transform.position, SpawnPoint.transform.rotation);
-        var rigid = projectile.GetComponent<Rigidbody2D>();
-        var direction = (MainStore.Player.transform.position - SpawnPoint.transform.position).normalized;
-        rigid.AddForce(direction * SpeedProjectile * Time.deltaTime);
-    }
-
-    private IEnumerator Shooting()
-    {
-        while (true)
-        {
-            Shoot();
-            yield return new WaitForSeconds(1);
-        }
+        ready = false;
+        yield return new WaitForSeconds(1);
+        ready = true;
     }
 }

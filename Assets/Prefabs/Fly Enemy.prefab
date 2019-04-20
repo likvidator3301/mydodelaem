@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1952541761}
   - component: {fileID: 1952541760}
   - component: {fileID: 1800509815315338240}
+  - component: {fileID: 2655210428034639299}
   m_Layer: 0
   m_Name: Fly Enemy
   m_TagString: Enemy
@@ -165,11 +166,22 @@ MonoBehaviour:
   Speed: 2
   Seed: 4487
   RangeOfView: 4
-  IsBoxPlayer: 0
+--- !u!114 &2655210428034639299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952541759}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3c1d7b0fc7d7b469f599d17322e05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 6399255034117104542}
   Projectile: {fileID: 697337635885120356, guid: db5b188e90357574890ae8ac7ee4e99f,
     type: 3}
-  SpeedProjectile: 10
+  Speed: 2
 --- !u!1 &6399255034117104542
 GameObject:
   m_ObjectHideFlags: 0

@@ -19,6 +19,7 @@ public class ChangeColorByTime : MonoBehaviour
 
     private IEnumerator Do()
     {
+        Time.timeScale = 0;
         var a = 0f;
         while (a < 8f)
         {
@@ -29,6 +30,7 @@ public class ChangeColorByTime : MonoBehaviour
             gameObject.GetComponent<Image>().color = new Color(color.r, color.g, color.b, color.a - 10/255f);
         }
         yield return new WaitForSeconds(1);
+        Time.timeScale = 1f;
         Destroy(gameObject);
     }
 }

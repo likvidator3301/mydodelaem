@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 2019150286}
   - component: {fileID: 2019150285}
   - component: {fileID: 6751208921422500529}
+  - component: {fileID: 6836952061996268601}
   m_Layer: 0
   m_Name: Box Enemy
   m_TagString: Enemy
@@ -165,11 +166,22 @@ MonoBehaviour:
   Speed: 2
   Seed: 56
   RangeOfView: 4
-  IsBoxPlayer: 1
+--- !u!114 &6836952061996268601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2019150284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d3c1d7b0fc7d7b469f599d17322e05c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   SpawnPoint: {fileID: 377283029215376030}
   Projectile: {fileID: 697337635885120356, guid: db5b188e90357574890ae8ac7ee4e99f,
     type: 3}
-  SpeedProjectile: 10
+  Speed: 2
 --- !u!1 &377283029215376030
 GameObject:
   m_ObjectHideFlags: 0
