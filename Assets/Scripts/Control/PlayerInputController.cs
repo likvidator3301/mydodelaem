@@ -20,11 +20,12 @@ public class PlayerInputController : MonoBehaviour
         if (Locked)
             return;
         ProcessInput();
-        var mousePosition = MainStore.Camera.ScreenPointToRay(Input.mousePosition).GetPoint(1);
-        var angle = Vector3.Angle(mousePosition - transform.position, Vector3.up);
-        if (mousePosition.x > transform.position.x)
-            angle = -angle;
-        gameObject.transform.rotation = Quaternion.AngleAxis(angle, Vector3.forward);
+
+        var mousePosition = Input.mousePosition;
+        mousePosition = Camera.main.ScreenToWorldPoint(mousePosition);
+        var angle = Vector2.Angle(Vector2.right, mousePosition - transform.position);
+        transform.eulerAngles = new Vector3(0f, 0f, transform.position.y < mousePosition.y ? angle - 90  : -angle - 90);
+
     }
 
     private void ProcessInput()

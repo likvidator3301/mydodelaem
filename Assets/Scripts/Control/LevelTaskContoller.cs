@@ -2,16 +2,24 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Level1TaskContoller : MonoBehaviour
+public class LevelTaskContoller : MonoBehaviour
 {
-    private bool wifeIsSaved;
-    private bool enemysKilled;
+    [SerializeField] private bool targetIsSaved;
+    [SerializeField] private bool enemysKilled;
+
+    public Dictionary<string, bool> Keys = new Dictionary<string, bool>()
+    {
+        { "Red", false},
+        { "Blue", false},
+        { "Yellow", false},
+
+    };
     [SerializeField] private int countOfNeedKillEnemys;
     [SerializeField] private GameObject portal;
 
-    public void SavedWife()
+    public void SavedTarget()
     {
-        wifeIsSaved = true;
+        targetIsSaved = true;
     }
 
     public void OnEnemysKilled()
@@ -23,7 +31,7 @@ public class Level1TaskContoller : MonoBehaviour
 
     public void Update()
     {
-        if (!wifeIsSaved || !enemysKilled)
+        if (!targetIsSaved || !enemysKilled)
             return;
         portal.SetActive(true);
     }

@@ -12,6 +12,7 @@ public class AIMoveController : MonoBehaviour
     public float RangeOfView;
     public float MoveRange;
     public bool Locked;
+    public int CooldownInSec = 1;
 
     private bool hasPath;
     private Vector3 target;
@@ -34,6 +35,9 @@ public class AIMoveController : MonoBehaviour
             return;
 
         CheckPlayer();
+        if (checkPoints.Length == 0)
+            return;
+
         if (hasPath)
         {
             var direction = target - transform.position;
@@ -69,7 +73,7 @@ public class AIMoveController : MonoBehaviour
     private IEnumerator Cooldown()
     {
         ready = false;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(CooldownInSec);
         ready = true;
     }
 }

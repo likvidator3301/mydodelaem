@@ -42,7 +42,7 @@ public class TargetReaction : MonoBehaviour
         follower.Target = MainStore.Player.transform;
         follower.Offset = transform.position - MainStore.Player.transform.position;
         MainStore.Dialogue.HideDialogue();
-        MainStore.Player.GetComponent<Level1TaskContoller>().SavedWife();
+        MainStore.Player.GetComponent<LevelTaskContoller>().SavedTarget();
         Destroy(gameObject);
     }
 }

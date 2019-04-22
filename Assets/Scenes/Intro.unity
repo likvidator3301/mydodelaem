@@ -287,7 +287,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CheckPoints:
   - {fileID: 0}
-  GameOver: {fileID: 0}
+  GameOverlbl: {fileID: 0}
 --- !u!114 &804419824
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -342,6 +342,12 @@ MonoBehaviour:
     \u0432\u043E\u0441\u043A\u043B\u0438\u0446\u0430\u0435\u0442 \u043D\u0430 \u043D\u0435\u043F\u043E\u043D\u044F\u0442\u043D\u043E\u043C
     \u044F\u0437\u044B\u043A\u0435*"
   Animator: {fileID: 234132912}
+  ScrumbleClip: {fileID: 8300000, guid: 9143a060cac85e14bbe30a3ef01e0847, type: 3}
+  SwallowClip: {fileID: 8300000, guid: f06d55b07c8a85d43af8e06d226170fc, type: 3}
+  PourClip: {fileID: 8300000, guid: fb9b7c98916af904ba17ec1933f7dfde, type: 3}
+  WritingClip: {fileID: 8300000, guid: b8374872b121eb64d826dba64f3436ea, type: 3}
+  RingingClip: {fileID: 8300000, guid: 86e59b0f2d921094594a26b50d8cff1f, type: 3}
+  ThunderClip: {fileID: 8300000, guid: 358d6b90f18c8374b8e0c53bc7c00c2c, type: 3}
 --- !u!95 &804419825
 Animator:
   serializedVersion: 3
@@ -568,7 +574,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b0009a5240aa3b54f971082fb51af351, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.26
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -689,21 +695,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Canvas
-      objectReference: {fileID: 0}
-    - target: {fileID: 902451449463552464, guid: fa64eac79dff9e44dae3acefd0a1ec78,
-        type: 3}
-      propertyPath: m_FontData.m_Alignment
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 902451449463552464, guid: fa64eac79dff9e44dae3acefd0a1ec78,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 38
-      objectReference: {fileID: 0}
-    - target: {fileID: 902451449463552464, guid: fa64eac79dff9e44dae3acefd0a1ec78,
-        type: 3}
-      propertyPath: m_FontData.m_MinSize
-      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 902451448078388635, guid: fa64eac79dff9e44dae3acefd0a1ec78,
         type: 3}
@@ -895,6 +886,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 148.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 902451449463552464, guid: fa64eac79dff9e44dae3acefd0a1ec78,
+        type: 3}
+      propertyPath: m_FontData.m_Alignment
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 902451449463552464, guid: fa64eac79dff9e44dae3acefd0a1ec78,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 38
+      objectReference: {fileID: 0}
+    - target: {fileID: 902451449463552464, guid: fa64eac79dff9e44dae3acefd0a1ec78,
+        type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fa64eac79dff9e44dae3acefd0a1ec78, type: 3}

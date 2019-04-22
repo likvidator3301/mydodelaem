@@ -13,6 +13,6 @@ public class SoulsDrop : MonoBehaviour
             var offset = new Vector3(random.Next(-3, 4), random.Next(-3, 4), 0);
             Instantiate(Soul, transform.position + offset, transform.rotation);
         }
-        MainStore.Player.GetComponent<Level1TaskContoller>().OnEnemysKilled();
+        MainStore.Player.GetComponent<LevelTaskContoller>().OnEnemysKilled();
     }
 }
